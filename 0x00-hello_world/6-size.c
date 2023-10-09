@@ -23,4 +23,3 @@ printf("Size of long long: %lu byte(s)\n", (unsigned long)
 		sizeof(f));
 return (0);
 }
-
