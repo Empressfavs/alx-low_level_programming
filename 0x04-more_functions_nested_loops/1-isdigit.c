@@ -6,16 +6,17 @@
  */
 int _isdigit(int c)
 {
-	int a;
+	char a;
 	int b;
 
+	a = 0;
 	b = 0;
 
-	for (a = 0; a <= 9; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
 		if (a == c)
 		{
-			b = 0;
+			b = 1;
 		}
 
 	}
