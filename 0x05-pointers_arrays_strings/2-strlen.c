@@ -1,9 +1,8 @@
 #include "main.h"
-#include <string.h>
 /**
- * _strlen - check main
- * @s - value that returns the length of a string
- * Return: 0
+ * _strlen - calculates the length of a string
+ * @s - pointeer to a null-terminated string
+ * Return: length
  */
 int _strlen(char *s)
 {
